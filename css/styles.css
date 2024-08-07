@@ -1,0 +1,84 @@
+/* Start variables */
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+/* End variables */
+/* Start Main Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: var(--Grey-900);
+}
+/* End Main Rules */
+/* Start The Box */
+.box {
+    background-color: var(--Grey-800);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+/* End The Box */
+/* Start The Image */
+.profile-image {
+    padding-bottom: 20px;
+}
+.profile-image img {
+    width: 100px;
+    border-radius: 50%;
+}
+/* End The Image */
+/* Start Text */
+.the-main-text {
+    
+}
+.the-main-text h3 {
+    color: var(--White);
+    text-transform: capitalize;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+.the-main-text p {
+    color: var(--Green);
+    font-size: 13px;
+}
+.the-main-text .quote{
+    color: var(--White);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+/* End Text */
+/* Start Links */
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+.social-links a {
+    text-decoration: none;
+    background-color: var(--Grey-700);
+    padding: 20px;
+    margin: 7px auto;
+    width: 300px;
+    border-radius: 10px;
+    color: var(--White);
+    font-weight: 600;
+}
+.social-links a:hover {
+    background-color: var(--Green);
+    color: var(--Grey-900);
+}
+/* End Links */
